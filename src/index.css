@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img {
+  filter: brightness(0.4); /* قم بتعديل القيمة حسب الرغبة */
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search{
+  width: 90%;
+  height: 30px;
+  border: 0 white;
+  border-radius: 20px;
+  padding: 10px;
+  outline: 0;
+}
