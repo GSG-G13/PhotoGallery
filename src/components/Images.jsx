@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import Card from "./Card";
+import Loading from "./Loading";
 import imageSearch from '../utils/fetcher.js';
 import './images.css';
 class Images extends Component{
@@ -26,7 +27,7 @@ class Images extends Component{
     render(){
         console.log(this.state.data);
         const {data} = this.state;
-        if (!data) return <div>Loading...</div>;
+        if (!data) return <Loading/>;
         const cards = data.map((card) =><Card data = {card} key={card.id}/>);
         return(
             <div className="gallery">

@@ -17,8 +17,6 @@ class Card extends Component{
                        <span><i className="ri-download-2-line"></i> {downloads}</span> 
                        <span><i className="ri-user-3-line"></i> {user}</span> 
                        <span><i className="ri-hashtag"></i> {tags}</span> 
-                    
-                    
                     </div>
                 </div></a>
                 
