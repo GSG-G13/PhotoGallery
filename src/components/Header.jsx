@@ -6,7 +6,7 @@ class Header extends React.Component {
       <>
 
         <div className="container">
-          <img src={require('../bg.jpg')}  alt="Snow" style={{width:"100%"}} />
+          <img className="image-header" src={require('../bg.jpg')}  alt="Snow" style={{width:"100%"}} />
           <div className="centered">
             <h1>Stunning royalty-free images & royalty-free stock</h1>
             <p>Over 3 million+ high quality stock images shared by our talented community.</p>
