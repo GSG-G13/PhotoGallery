@@ -11,9 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 img {
-  filter: brightness(0.4); /* قم بتعديل القيمة حسب الرغبة */
+  filter: brightness(0.4);
+  /* قم بتعديل القيمة حسب الرغبة */
 }
+
 .container {
   position: relative;
   text-align: center;
@@ -27,11 +30,25 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.search{
-  width: 90%;
+
+.search {
+  width: 100%;
   height: 30px;
   border: 0 white;
   border-radius: 20px;
   padding: 10px;
   outline: 0;
+  padding-left: 35px;
+}
+
+i {
+
+  position: relative;
+  bottom: -36px;
+  color: #656f79;
+  font-weight: 600;
+  right: 48%;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
 }
