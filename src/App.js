@@ -1,10 +1,11 @@
 import './App.css';
-import imageSearch from './utils/fetcher.js';
+import Images from './components/Images';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {imageSearch('yellow flowers', 'photo')}
+        
+        <Images type ='all' query = 'yellow flowers'/>
       </header>
     </div>
   );
